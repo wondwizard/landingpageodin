@@ -89,7 +89,7 @@ body {
     text-align: center;
     padding-left: 192px;
     padding-right: 192px;
-    height: 300px;
+    height: 275px;
 }
 
 .dog {
@@ -102,4 +102,33 @@ body {
 .dogtext {
     color: #58595c;
     padding: 4px;
+}
+
+.lower {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-left: 192px;
+    padding-right: 192px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.borf {
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
 }
