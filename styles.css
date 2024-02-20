@@ -24,6 +24,7 @@ a {
     font-size: 24px;
     font-weight: 700;
     color: white;
+    flex-shrink: 0;
 }
 
 body {
@@ -52,6 +53,7 @@ body {
     flex-direction: column;
     gap: 16px;
     max-width: 350px;
+    flex-shrink: 0;
 
 }
 
@@ -126,6 +128,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .author {
@@ -139,7 +142,7 @@ body {
     align-items: center;
     padding-left: 192px;
     padding-right: 192px;
-    height: 200px;
+    height: 250px;
 }
 
 .box {
@@ -150,6 +153,8 @@ body {
     background: #3882F6;
     width: 800px;
     border-radius: 6px;
+    gap: 32px;
+    flex-shrink: 0;
 }
 
 .calltext {
@@ -170,4 +175,13 @@ body {
     border-radius: 4px;
     padding: 4px 24px;
     font-weight: 700;
+}
+
+.footer {
+    color: white;
+    background: #1F2937;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
