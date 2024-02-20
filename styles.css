@@ -31,3 +31,46 @@ body {
     flex-direction: column;
     margin: 0;
 }
+
+.topsection {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding-left: 192px;
+    padding-right: 192px;
+    gap: 96px;
+    height: 500px;
+}
+
+.coverimg {
+    width: 400px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 350px;
+
+}
+
+.maintext {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.mainsubtext {
+    color: white;
+}
+
+.topbutton {
+    max-width: 92px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    padding: 4px;
+    font-weight: 700;
+}
