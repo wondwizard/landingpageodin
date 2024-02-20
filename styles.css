@@ -132,3 +132,42 @@ body {
     align-self: flex-end;
     font-weight: 700;
 }
+
+.bottomsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 192px;
+    padding-right: 192px;
+    height: 200px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+    background: #3882F6;
+    width: 800px;
+    border-radius: 6px;
+}
+
+.calltext {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.smallcalltext {
+    color: white;
+    font-size: 14px;
+}
+
+.bottombutton {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 4px 24px;
+    font-weight: 700;
+}
